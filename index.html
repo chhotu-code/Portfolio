@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header start -->
+<header>
+    <div class="user">
+        <img src="images/pic.jpg" alt="photo"/>
+        <h3 class="name">Chhotu kumar</h3>
+        <p class="post">Front-end Developer</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Eduction</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<!-- header end -->
+<div id="menu-icon" class="fas fa-bars"></div>
+
+<section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <h1 class="H1name">I'M <span id="changeName">Chhotu Shaw</span></h1>
+    <p>This is Chhotu Kumar, I am Pursuing MCA from Rajasthan University. 
+        Regarding My Academic Qualification, 
+        I have done matriculation from BSEB in 2017 & intermediate from BSEB in 2019.
+         My professional Qualification, I have completed my Bachelor's Degree in Computer Application (BCA) 
+         in BRABU Muzaffarpur, currently I'm studying MCA (1st semester) from Rajasthan technical university,
+          & I have completed my internship in web development at Khabai Tech, I am interested in coding.
+    </p>
+    <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"><span>About </span>me</h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>Name:</span>Chhotu Kumar</h3>
+            <h3><span>Age:</span>21</h3>
+            <h3><span>Qualification:</span>MCA</h3>
+            <h3><span>Post:</span>Student</h3>
+            <h3><span>Language:</span>English + Hindi</h3>
+            <a href="images/with MCA.pdf"target="_blank"><button class="btn" id="resume"> Download CV <i class="fas fa-download"></i></button></a>
+        </div>
+
+        <div class="counter">
+            <div class="box">
+                <span>6+</span>
+                <h3>Months of Exprience</h3>
+            </div>
+            <div class="box">
+                <span>10+</span>
+                <h3>project completed</h3>
+            </div>
+            <div class="box">
+                <span>0</span>
+                <h3>Happy client</h3>
+            </div>
+            <div class="box">
+                <span>10+</span>
+                <h3>Awards won</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+    <h1 class="heading">My<span>Education </span></h1>
+
+    <div class="box-container ">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2016-2017</span>
+            <h3>Matriculation</h3>
+            <p>I have done matriculation from BSEB Patna in 2017 with 62.6%.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017-2019</span>
+            <h3>Intermidate</h3>
+            <p>I have done intermediate from BSEB Patna in 2019 with 68%.  </p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019-2022</span>
+            <h3>Bachelor of computer Application (BCA)</h3>
+            <p>I have completed Bachelor of computer Application (BCA)
+                 from Bihar University in 2023 with 74%.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023-2025</span>
+            <h3>Master of Computer Application (MCA)</h3>
+            <p>I am Pursuing Master Degree in Computer Application (MCA) from Rajasthan technical University.</p>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Portfolio </span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img1.png"  alt="">
+        </div>
+        <div class="box">
+            <img src="images/img2.png" id="abc" alt="">
+        </div>
+        <div class="box">
+            <img src="images/img3.png" id="abc" alt="">
+        </div>
+        <div class="box">
+            <img src="images/img4.png" id="abc" alt="">
+        </div>
+        <div class="box">
+            <img src="images/img5.png" id="abc" alt="">
+        </div>
+        <div class="box">
+            <img src="images/img6.png" id="abc" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact </span></h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">contact Info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>chhotu456787@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>+91 9693524900</h3>
+                <h3><i class="fas fa-map-marker-alt"></i>Udaipur, Rajsthan</h3>
+            </div>
+        </div>
+        
+        <form action="">
+            <input type="text" placeholder="name" class="box" name="uname" />
+            <input type="email" placeholder="email" class="box"  name="email"/>
+            <input type="text" placeholder="project" class="box" name="prject"/>
+            <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
