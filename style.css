@@ -395,5 +395,6 @@ section .btn{
 
  
 .text li{
-    font-size: 5rem;
+    font-size: 2.5rem;
+    color: white;
 }
