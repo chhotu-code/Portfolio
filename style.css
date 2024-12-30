@@ -392,13 +392,12 @@ section .btn{
     }
 }
 
-
+.text{
+    font-size: 3rem;
+    color: white;
+}
  
 .text li{
     font-size: 2.5rem;
-    color: white;
-}
-.text{
-    font-size: 3rem;
     color: white;
 }
